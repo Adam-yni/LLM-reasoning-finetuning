@@ -10,3 +10,5 @@ word2number
 vllm
 wandb
 tqdm
+flash-attn
+peft
