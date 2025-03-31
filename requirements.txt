@@ -1,0 +1,12 @@
+trl==0.11.4
+torch
+deepspeed
+accelerate
+openpyxl
+pandas
+transformers 
+accelerate
+word2number
+vllm
+wandb
+tqdm
