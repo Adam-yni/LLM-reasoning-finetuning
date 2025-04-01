@@ -22,7 +22,7 @@ This folder contains the code to generate high-quality datasets with the followi
 This folder contains the code to fine-tune a Large Language Model (LLM) into a **Process Reward Model (PRM)**.  
 - The loss function in the `Trainer` has been modified to use **Binary Cross-Entropy Loss (BCE Loss)**, which better aligns with the objective of assigning a score between `0` and `1` to each step.  
 - Below is an example of how a PRM evaluates a step. The step being evaluated is the one following the `<next>` token:  
-[PRM validation](images/prmtest.png)
+![PRM validation](images/prmtest.png)
 ### 3. **`Reinforcement Learning (PPO)`**: Fine-Tuning for Better Math Skills  
 This folder contains the code to fine-tune an LLM using **Proximal Policy Optimization (PPO)** to improve its mathematical reasoning.  
 
@@ -40,8 +40,8 @@ This folder contains the code for **guided inference** using a PRM:
 - **Step 3**: The selected step is added to the prompt, and the process repeats until the final solution is reached.  
 
 **Results**:  
-- This guided approach allows smaller LLMs to outperform larger models on challenging benchmarks like **Math Hard**, one of the most difficult mathematical reasoning benchmarks (used in Hugging Face's LLM leaderboard).  
-[Guided Search](images/gs.png)
+- This guided approach allows smaller LLMs to outperform larger models on challenging benchmarks like **Math Hard** (with the 3B version of Falcon outperforming much larger models like its 7B and even 10B versions!), one of the most difficult mathematical reasoning benchmarks (used in Hugging Face's LLM leaderboard).  
+![Guided Search](images/gs.png)
 ---
 
 ### 5. **`Key Highlights`**: Why This Repository Stands Out  
