@@ -28,7 +28,7 @@ This folder contains the code to fine-tune an LLM using **Proximal Policy Optimi
 
 - **Input Format**: The model receives a question and the beginning of a solution as input, and it generates only the **next step** (not the entire solution).  
 - **PRM Feedback**: The PRM provides a clear and precise signal on the quality of the proposed step, enabling the LLM to improve quickly and effectively.  
-- **Results**: Even though the LLM generates only one step at a time and the PRM evaluates just that step (without knowing the full solution), the model achieves significant improvements in mathematical reasoning.  
+- **Results**: Even though the LLM generates only one step at a time and the PRM evaluates just that step (without knowing the full solution), the model achieves significant improvements in mathematical reasoning -> a relative improvement of 20% in results on the Math Hard benchmark (used for Hugging Face's LLM ranking).  
 
 ---
 
