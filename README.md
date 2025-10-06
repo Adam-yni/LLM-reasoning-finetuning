@@ -1,14 +1,14 @@
-# 🚀 Fine-Tuning and Guided Inference for Mathematical Reasoning
+#  Fine-Tuning and Guided Inference for Mathematical Reasoning
 
 Welcome to this repository! Here, you'll find all the necessary code to:
 
-1. **Generate high-quality data** 📊  
-2. **Fine-tune models** to improve their mathematical reasoning or transform them into Process Reward Models (PRMs) 🧠  
-3. **Perform step-by-step guided inference** using a PRM to evaluate and guide the reasoning process 🔍  
+1. **Generate high-quality data**   
+2. **Fine-tune models** to improve their mathematical reasoning or transform them into Process Reward Models (PRMs) 
+3. **Perform step-by-step guided inference** using a PRM to evaluate and guide the reasoning process   
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ### 1. **`MCTS_Data`**: High-Quality Data Generation  
 This folder contains the code to generate high-quality datasets with the following structure:  
@@ -52,9 +52,6 @@ This folder contains the code for **guided inference** using a PRM:
 
 ---
 
-Feel free to explore the code and adapt it to your needs. Contributions are welcome! 😊  
+Feel free to explore the code and adapt it to your needs. Contributions are welcome!  
 
 ---
-
-## 📧 Contact  
-If you have any questions or suggestions, feel free to open an issue or reach out. Happy coding! 💻
